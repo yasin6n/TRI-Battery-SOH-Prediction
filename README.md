@@ -56,16 +56,16 @@ jupyter notebook
 ![Capacity Fade Trajectories](images/capacity_fade_smoothened.png)
 *Capacity degradation over cycles for sample batteries*
 
-![Random Forest Feature Importances](images/ENet_coefficients.png)
+![Elastic_Net Feature Importances](images/ENet_coefficients.png)
 *Top features from Elastic Net model before/after optimization*
 
-![RF_Prediction Residuals](images/ENet_scatter_residuals.png)
+![Elastic_Net_Prediction Residuals](images/ENet_scatter_residuals.png)
 *Scatter and Residual plot showing prediction errors for Elastic Net*
 
-![Random Forest Feature Importances](images/rf_feature_importances.png)
+![Random_Forest Feature Importances](images/rf_feature_importances.png)
 *Top features from Random Forest model before/after optimization*
 
-![RF_Prediction Residuals](images/RF_scatter_residuals.png)
+![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
 *Scatter and Residual plot showing prediction errors for Random Forest*
 
 
