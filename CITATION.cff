@@ -14,7 +14,10 @@ preferred-citation:
   authors:
     - family-names: Severson
       given-names: Kristen A.
-    # Add first few more if desired
+    - family-names: Attia
+      given-names: Peter M.
+    - family-names: Jin
+      given-names: Norman  
   doi: 10.1038/s41560-019-0356-8
   journal: Nature Energy
   start: 383
