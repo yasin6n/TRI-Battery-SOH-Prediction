@@ -30,10 +30,13 @@ Dependencies listed in `requirements.txt` (includes numpy, pandas, scipy, scikit
 (**Note:** Python 3.12.3 has been used in a virtual environment for this project)
 
 ## How to Run
-[<image-card alt="Open 01 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/01_Data_Exploration.ipynb)
-[<image-card alt="Open 02 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/02_JSON_to_H5_Decoder.ipynb)
-[<image-card alt="Open 03 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/03_Features_Target_Matrices.ipynb)
-[<image-card alt="Open 04 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/04_Model_Training_ElasticNet_RF.ipynb) 
+[![Open 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/01_Data_Exploration.ipynb)  
+
+[![Open 02 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/02_JSON_to_H5_Decoder.ipynb)  
+
+[![Open 03 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/03_Features_Target_Matrices.ipynb)  
+
+[![Open 04 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/04_Model_Training_ElasticNet_RF.ipynb)
 
 **Locally:**
 ```bash
@@ -53,20 +56,20 @@ jupyter notebook
 
 ## Visual Highlights
 
-<image-card alt="Capacity Degradation Trajectories" src="images/capacity_fade_smoothened.png" ></image-card>
-*Capacity degradation over cycles for sample batteries (smoothened data)*
+![Capacity Fade Trajectories](images/capacity_fade_smoothened.png)
+*Capacity degradation over cycles for sample batteries*
 
-<image-card alt="ElasticNet Feature Coefficients" src="images/ENet_coefficients.png" ></image-card>
-*Feature coefficients from ElasticNet model (before/after optimization)*
+![Elastic_Net Feature Importances](images/ENet_coefficients.png)
+*Top features from Elastic Net model before/after optimization*
 
-<image-card alt="ElasticNet Prediction Scatter & Residuals" src="images/ENet_scatter_residuals.png" ></image-card>
-*Scatter plot (predicted vs. actual) and residuals for ElasticNet (last GroupKFold split)*
+![Elastic_Net_Prediction Residuals](images/ENet_scatter_residuals.png)
+*Scatter and Residual plot showing prediction errors for Elastic Net (last GroupKFold split)*
 
-<image-card alt="Random Forest Feature Importances" src="images/RF_feature_importances.png" ></image-card>
-*Top features from Random Forest model (before/after optimization)*
+![Random_Forest Feature Importances](images/RF_feature_importances.png)
+*Top features from Random Forest model before/after optimization*
 
-<image-card alt="Random Forest Prediction Scatter & Residuals" src="images/RF_scatter_residuals.png" ></image-card>
-*Scatter plot (predicted vs. actual) and residuals for Random Forest (last GroupKFold split)*
+![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
+*Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
 
 
 ## Key Skills & Takeaways
