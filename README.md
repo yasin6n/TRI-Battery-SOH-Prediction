@@ -30,6 +30,9 @@ Dependencies listed in `requirements.txt` (includes numpy, pandas, scipy, scikit
 (**Note:** Python 3.12.3 has been used in a virtual environment for this project)
 
 ## How to Run
+- Download dataset from matr.io link
+- Access notebooks from local link or code bellow **(Order: 1 -> 2 -> 3 -> 4)**
+
 [![Open 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/01_Data_Exploration.ipynb)  
 
 [![Open 02 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/02_JSON_to_H5_Decoder.ipynb)  
@@ -67,6 +70,8 @@ jupyter notebook
 
 ![Random_Forest Feature Importances](images/RF_feature_importances.png)
 *Top features from Random Forest model before/after optimization*
+
+<image-card alt="Random Forest Feature Importances" src="images/RF_feature_importances.png" ></image-card>
 
 ![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
 *Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
