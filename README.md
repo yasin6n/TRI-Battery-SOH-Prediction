@@ -105,6 +105,35 @@ jupyter notebook
 - Toyota Research Institute for the open battery dataset
 - ITU Mathematical Engineering department and instructors
 
+## Possible Future Plans / Next Steps
+
+This project served as a strong foundation for battery SOH prediction using classical ML on the TRI fast-charging LFP dataset. Here are some ideas I'm planning to explore to take it further:
+
+- **Advanced Gradient Boosting Models**  
+  Experiment with XGBoost, LightGBM, or CatBoost — these often outperform Random Forest on tabular/time-series battery data due to better handling of non-linearities and feature interactions. Goal: push RMSE/MAE below current ~1.4%/0.9% levels.
+
+- **Early-Cycle RUL Prediction**  
+  Shift focus to predicting full remaining useful life (RUL in cycles) using only the first 50–100 cycles of data. This is a common real-world challenge (limited early data in EVs). Could compare against published baselines on the TRI dataset.
+
+- **Deep Learning Approaches**  
+  Implement sequence models like LSTM, GRU, or 1D-CNN (or even Temporal Convolutional Networks) on raw/processed voltage-current-time series. This could capture temporal patterns better than hand-crafted features.
+
+- **Physics-Informed Enhancements**  
+  Incorporate domain knowledge (e.g., equivalent circuit models, pseudo-2D electrochemical features, or temperature effects if data allows) into hybrid ML-physics models for better generalization.
+
+- **Model Deployment & Real-Time Demo**  
+  Wrap the best model in a simple Streamlit/Gradio web app for interactive SOH prediction (upload cycle data → get prediction + uncertainty). Bonus: export to ONNX for edge deployment simulation.
+
+- **Uncertainty Quantification**  
+  Add probabilistic predictions (e.g., via Gaussian Processes, dropout in NNs, or conformal prediction) to estimate prediction confidence — crucial for safety-critical battery applications.
+
+- **Dataset Extensions / Comparisons**  
+  Test transfer learning or domain adaptation to other public datasets (e.g., NASA, CALCE, or newer LFP ones) to check cross-dataset robustness.
+
+I'll update this section with progress as I implement any of these. Contributions, suggestions, or collaborations are very welcome!
+
+Last updated: March 2026
+
 ## Author
 **Yasin ALTIN**
 **Mathematical Engineering Student @ Istanbul Technical University**
