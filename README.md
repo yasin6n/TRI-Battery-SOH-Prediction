@@ -33,7 +33,7 @@ Dependencies listed in `requirements.txt` (includes numpy, pandas, scipy, scikit
 [<image-card alt="Open 01 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/01_Data_Exploration.ipynb)
 [<image-card alt="Open 02 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/02_JSON_to_H5_Decoder.ipynb)
 [<image-card alt="Open 03 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/03_Features_Target_Matrices.ipynb)
-[<image-card alt="Open 04 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/04_Model_Training_ElasticNet_RF.ipynb) .
+[<image-card alt="Open 04 in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" ></image-card>](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/04_Model_Training_ElasticNet_RF.ipynb) 
 
 **Locally:**
 ```bash
