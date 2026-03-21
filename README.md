@@ -31,7 +31,7 @@ Dependencies listed in `requirements.txt` (includes numpy, pandas, scipy, scikit
 
 ## How to Run
 - Download dataset from matr.io link
-- Access notebooks from local link or code bellow **(Order: 1 -> 2 -> 3 -> 4)**
+- Access notebooks from colab links or code bellow **(Order: 1 -> 2 -> 3 -> 4)**
 
 [![Open 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/01_Data_Exploration.ipynb)  
 
