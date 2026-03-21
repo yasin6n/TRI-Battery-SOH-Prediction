@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite the TRI dataset paper and this repository."
+type: software
+title: "TRI Battery Aging & SoH Prediction"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Altın
+    given-names: Yasin
+    affiliation: Istanbul Technical University
+repository-code: https://github.com/yasin6n/TRI-Battery-SOH-Prediction
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Severson
+      given-names: Kristen A.
+    # Add first few more if desired
+  doi: 10.1038/s41560-019-0356-8
+  journal: Nature Energy
+  start: 383
+  end: 391
+  title: "Data-driven prediction of battery cycle life before capacity degradation"
+  volume: 4
+  issue: 5
+  year: 2019
