@@ -1,4 +1,4 @@
-<img width="984" height="784" alt="image" src="https://github.com/user-attachments/assets/38c5a1f8-98d8-415f-9d23-c93dbc97135e" /># TRI Battery Aging & SoH Prediction 
+TRI Battery Aging & SoH Prediction 
 
 **Dataset**: Toyota Research Institute (TRI) fast-charging LFP battery aging dataset
 Available at: https://data.matr.io/1/projects/5c48dd2bc625d700019f3204  
