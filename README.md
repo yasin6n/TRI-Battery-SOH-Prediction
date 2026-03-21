@@ -60,13 +60,13 @@ jupyter notebook
 *Top features from Elastic Net model before/after optimization*
 
 ![Elastic_Net_Prediction Residuals](images/ENet_scatter_residuals.png)
-*Scatter and Residual plot showing prediction errors for Elastic Net*
+*Scatter and Residual plot showing prediction errors for Elastic Net (for the last train-test configuration from GroupKFold grouping)*
 
 ![Random_Forest Feature Importances](images/RF_feature_importances.png)
 *Top features from Random Forest model before/after optimization*
 
 ![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
-*Scatter and Residual plot showing prediction errors for Random Forest*
+*Scatter and Residual plot showing prediction errors for Random Forest (for the last train-test configuration from GroupKFold grouping)*
 
 
 ## Key Skills & Takeaways
