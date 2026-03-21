@@ -107,7 +107,7 @@ jupyter notebook
 
 ## Possible Future Plans / Next Steps
 
-This project served as a strong foundation for battery SOH prediction using classical ML on the TRI fast-charging LFP dataset. Here are some ideas I'm planning to explore to take it further:
+This project served as a strong foundation for battery SOH prediction using classical ML on the TRI fast-charging LFP dataset. Here are some ideas I might explore to take it further:
 
 - **Advanced Gradient Boosting Models**  
   Experiment with XGBoost, LightGBM, or CatBoost — these often outperform Random Forest on tabular/time-series battery data due to better handling of non-linearities and feature interactions. Goal: push RMSE/MAE below current ~1.4%/0.9% levels.
