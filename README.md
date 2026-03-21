@@ -1,4 +1,4 @@
-# TRI Battery Aging & SoH Prediction 
+<img width="984" height="784" alt="image" src="https://github.com/user-attachments/assets/38c5a1f8-98d8-415f-9d23-c93dbc97135e" /># TRI Battery Aging & SoH Prediction 
 
 **Dataset**: Toyota Research Institute (TRI) fast-charging LFP battery aging dataset
 Available at: https://data.matr.io/1/projects/5c48dd2bc625d700019f3204  
@@ -50,6 +50,24 @@ jupyter notebook
 - Prevented data leakage with causal Savitzky-Golay filtering (past data only)
 - **ElasticNet**: achieved average RMSE ≈ 0.0154 (**1.54%**) and average MAE ≈ 0.0099 (**0.99%**) (normalized SoH/capacity fraction) on held-out cycles
 - **Random Forest**: outperformed with average RMSE ≈ 0.0142 (**1.42%**) and average MAE = 0.0089 (**0.89%**) after hyperparameter tuning
+
+## Visual Highlights
+
+![Capacity Fade Trajectories](images/capacity_fade_smoothened.png)
+*Capacity degradation over cycles for sample batteries*
+
+![Random Forest Feature Importances](images/ENet_coefficients.png)
+*Top features from Elastic Net model before/after optimization*
+
+![RF_Prediction Residuals](images/ENet_scatter_residuals.png)
+*Scatter and Residual plot showing prediction errors for Elastic Net*
+
+![Random Forest Feature Importances](images/rf_feature_importances.png)
+*Top features from Random Forest model before/after optimization*
+
+![RF_Prediction Residuals](images/RF_scatter_residuals.png)
+*Scatter and Residual plot showing prediction errors for Random Forest*
+
 
 ## Key Skills & Takeaways
 - Matlab to Python transition
