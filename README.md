@@ -3,7 +3,7 @@ TRI Battery Aging & SoH Prediction
 **Dataset**: Toyota Research Institute (TRI) fast-charging LFP battery aging dataset
 Available at: https://data.matr.io/1/projects/5c48dd2bc625d700019f3204  
 Original publication: [^1]
-(**Note:** FastCharge_000002_CH26_structure.json haven't been used in analysis because of the lack of useful data in the file)
+(**Note:** FastCharge_000002_CH26_structure.json wasn't used in analysis because of the lack of useful data in the file)
 
 Jupyter Notebook project for **State of Health (SoH)** prediction using this dataset.  
 ITU Mathematical Engineering – Spring 2026 term project.
