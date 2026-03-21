@@ -71,8 +71,6 @@ jupyter notebook
 ![Random_Forest Feature Importances](images/RF_feature_importances.png)
 *Top features from Random Forest model before/after optimization*
 
-<image-card alt="Random Forest Feature Importances" src="images/RF_feature_importances.png" ></image-card>
-
 ![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
 *Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
 
