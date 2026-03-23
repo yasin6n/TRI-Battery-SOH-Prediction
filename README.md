@@ -16,6 +16,7 @@ This project was developed with **generative AI assistance** for code structurin
 
 **Note:** This project was originally submitted as a **MATLAB** assignment. This semester I completely rewrote it from scratch in **Python** on my own: added proper JSON → HDF5 conversion, Savitzky-Golay smoothing, feature preparation, and trained ElasticNet + Random Forest models. This allowed me to switch tools and significantly improve the quality and reproducibility of the work.
 
+
 ## Notebooks
 | # | File                                      | Description                                                                 |
 |---|-------------------------------------------|-----------------------------------------------------------------------------|
@@ -24,10 +25,12 @@ This project was developed with **generative AI assistance** for code structurin
 | 3 | `03_Features_Target_Matrices.ipynb`       | Load, clean, smooth (Savitzky-Golay), prepare matrices, save ready `.h5` |
 | 4 | `04_Model_Training_ElasticNet_RF.ipynb`   | Train ElasticNet & Random Forest, predict, evaluate & visualize results |
 
+
 ## Environment
 Python 3.8+ recommended  
 Dependencies listed in `requirements.txt` (includes numpy, pandas, scipy, scikit-learn, h5py, matplotlib, seaborn)
 (**Note:** Python 3.12.3 has been used in a virtual environment for this project)
+
 
 ## How to Run
 - Click to the matr.io link mentioned above to reach the dataset page
@@ -59,22 +62,23 @@ jupyter notebook
 - **ElasticNet**: achieved average RMSE ≈ 0.0154 (**1.54%**) and average MAE ≈ 0.0099 (**0.99%**) (normalized SoH/capacity fraction) on held-out cycles
 - **Random Forest**: outperformed with average RMSE ≈ 0.0142 (**1.42%**) and average MAE = 0.0089 (**0.89%**) after hyperparameter tuning
 
+
 ## Visual Highlights
 
-![Capacity Fade Trajectories](images/capacity_fade_smoothened.png)
-*Capacity degradation over cycles for sample batteries*
+![Capacity Fade Trajectories](images/capacity_fade_smoothened.png) 
+  *Capacity degradation over cycles for sample batteries*
 
 ![Elastic_Net Feature Importances](images/ENet_coefficients.png)
-*Top features from Elastic Net model before/after optimization*
+  *Top features from Elastic Net model before/after optimization*
 
 ![Elastic_Net_Prediction Residuals](images/ENet_scatter_residuals.png)
-*Scatter and Residual plot showing prediction errors for Elastic Net (last GroupKFold split)*
+  *Scatter and Residual plot showing prediction errors for Elastic Net (last GroupKFold split)*
 
-![Random_Forest Feature Importances](images/RF_feature_importances.png)
-*Top features from Random Forest model before/after optimization*
+![Random_Forest Feature Importances](images/RF_feature_importances.png) 
+  *Top features from Random Forest model before/after optimization*
 
 ![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
-*Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
+  *Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
 
 
 ## Key Skills & Takeaways
@@ -104,9 +108,11 @@ jupyter notebook
 - Plotting a histogram graph to check individual error rates for each group of data (batteries)
 - Turning a course assignment into a reproducible portfolio project
 
+
 ## Acknowledgments
 - Toyota Research Institute for the open battery dataset
 - ITU Mathematical Engineering department and instructors
+
 
 ## Possible Future Plans / Next Steps
 
@@ -139,6 +145,7 @@ This project served as a strong foundation for battery SOH prediction using clas
 I'll update this section with progress as I implement any of these. Contributions, suggestions, or collaborations are very welcome!
 
 Last updated: March 2026
+
 
 ## Author
 **Yasin ALTIN**
