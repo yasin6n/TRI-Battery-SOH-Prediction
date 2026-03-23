@@ -134,7 +134,7 @@ This project served as a strong foundation for battery SOH prediction using clas
   Test transfer learning or domain adaptation to other public datasets (e.g., NASA, CALCE, or newer LFP ones) to check cross-dataset robustness.
 
 - **Operations Research Approach**
-  
+  Leverage SOH/RUL predictions for optimization: optimal charge/discharge scheduling to minimize degradation and cost, fleet replacement planning, and robust decisions under uncertainty. Advanced extensions include stochastic programming and multi-objective BESS/EV optimization.(someone from an endustrial engineering or related departments might be needed for this one, open for collabrations)
 
 I'll update this section with progress as I implement any of these. Contributions, suggestions, or collaborations are very welcome!
 
