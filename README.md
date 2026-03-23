@@ -1,4 +1,4 @@
-TRI Battery Aging & SoH Prediction 
+# TRI Battery Aging & SoH Prediction 
 
 **Dataset**: Toyota Research Institute (TRI) fast-charging LFP battery aging dataset
 Available at: https://data.matr.io/1/projects/5c48dd2bc625d700019f3204  
@@ -30,7 +30,9 @@ Dependencies listed in `requirements.txt` (includes numpy, pandas, scipy, scikit
 (**Note:** Python 3.12.3 has been used in a virtual environment for this project)
 
 ## How to Run
-- Download dataset from matr.io link
+- Click to the matr.io link mentioned above to reach the dataset page
+- Scroll down in the page
+- Download dataset from the link named as "BEEP structured data"
 - Access notebooks from colab links or code bellow **(Order: 1 -> 2 -> 3 -> 4)**
 
 [![Open 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/01_Data_Exploration.ipynb)  
@@ -100,6 +102,7 @@ jupyter notebook
 - Comparing the weights before/after optimization on the graphs
 - Visualizing the results by plotting **scatterplot** and **residuals**
 - Plotting a histogram graph to check individual error rates for each group of data (batteries)
+- Turning a course assignment into a reproducible portfolio project
 
 ## Acknowledgments
 - Toyota Research Institute for the open battery dataset
@@ -129,6 +132,9 @@ This project served as a strong foundation for battery SOH prediction using clas
 
 - **Dataset Extensions / Comparisons**  
   Test transfer learning or domain adaptation to other public datasets (e.g., NASA, CALCE, or newer LFP ones) to check cross-dataset robustness.
+
+- **Operations Research Approach**
+  
 
 I'll update this section with progress as I implement any of these. Contributions, suggestions, or collaborations are very welcome!
 
