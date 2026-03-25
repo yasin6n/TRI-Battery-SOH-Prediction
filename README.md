@@ -141,7 +141,7 @@ This project served as a strong foundation for battery SOH prediction using clas
   Incorporate domain knowledge (e.g., equivalent circuit models, pseudo-2D electrochemical features, or temperature effects if data allows) into hybrid ML-physics models for better generalization.
 
 - **High-Speed Learning Models**  
-  Develop extremely fast models that combine the inference speed of linear models (like our ElasticNet ~12s) with the predictive power of ensemble/deep models (like Random Forest ~25min, or even transformers).  
+  Develop extremely fast models that combine the inference speed of linear models (like ElasticNet ~12s) with the predictive power of ensemble/deep learning models (like Random Forest ~25min, or even transformers).  
   Specifically explore Extreme Learning Machines (ELM) and Broad Learning Systems (BLS) aiming for near deep-learning accuracy at linear-model training/inference speeds. Ideal for real-time, resource-constrained Battery Management Systems (BMS).
 
 - **Model Deployment**  
