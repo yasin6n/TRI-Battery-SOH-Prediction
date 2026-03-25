@@ -61,9 +61,9 @@ jupyter notebook
 - Prevented data leakage with causal Savitzky-Golay filtering (past data only)
 - **Elastic Net**: achieved average RMSE ≈ 0.0154 (**1.54%**) and average MAE ≈ 0.0099 (**0.99%**) (normalized SoH/capacity fraction) on held-out cycles
 - **Random Forest**: outperformed with average RMSE ≈ 0.0141 (**1.41%**) and average MAE = 0.0089 (**0.89%**) after hyperparameter tuning
-- Total training time for;
+- Total approximate time (training + test) for;
   - **ElasticNet**: 12 Seconds
-  - **Random Forest**: Around 25 Minutes
+  - **Random Forest**: 25 Minutes
 
 
 ## Visual Highlights
