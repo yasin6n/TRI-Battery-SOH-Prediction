@@ -72,7 +72,7 @@ jupyter notebook
 *Scatter and Residual plot showing prediction errors for Elastic Net (last GroupKFold split)*
 
 ![Elastic_Net Feature Importances](images/ENet_coefficients.png)
-*Top features from Elastic Net model before/after optimization*
+*Top features from Elastic Net model before/after optimization (last GroupKFold split)*
 
 ![Elastic_Net Battery_Histogram](images/ENet_histogram.png)
 *Histogram showing unique battery scores for Elastic Net*
@@ -81,7 +81,7 @@ jupyter notebook
 *Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
   
 ![Random_Forest Feature Importances](images/RF_feature_importances.png) 
-*Top features from Random Forest model before/after optimization*
+*Top features from Random Forest model before/after optimization (last GroupKFold split)*
 
 ![Random_Forest Battery_Histogram](images/RF_histogram.png)
 *Histogram showing unique battery scores for Random Forest*
