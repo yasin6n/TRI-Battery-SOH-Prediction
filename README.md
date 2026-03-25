@@ -140,6 +140,9 @@ This project served as a strong foundation for battery SOH prediction using clas
 - **Physics-Informed Enhancements**  
   Incorporate domain knowledge (e.g., equivalent circuit models, pseudo-2D electrochemical features, or temperature effects if data allows) into hybrid ML-physics models for better generalization.
 
+- **High-Speed Learning Models**  
+  Exploring ELM and Broad Learning Systems to achieve Deep Learning accuracy at Linear Model speeds—ideal for real-time, resource-constrained BMS applications.
+
 - **Model Deployment & Real-Time Demo**  
   Wrap the best model in a simple Streamlit/Gradio web app for interactive SOH prediction (upload cycle data → get prediction + uncertainty). Bonus: export to ONNX for edge deployment simulation.
 
