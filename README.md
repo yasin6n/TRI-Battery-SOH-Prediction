@@ -60,7 +60,7 @@ jupyter notebook
 - Showed improvement after hyperparameter tuning and proper smoothing
 - Prevented data leakage with causal Savitzky-Golay filtering (past data only)
 - **ElasticNet**: achieved average RMSE ≈ 0.0154 (**1.54%**) and average MAE ≈ 0.0099 (**0.99%**) (normalized SoH/capacity fraction) on held-out cycles
-- **Random Forest**: outperformed with average RMSE ≈ 0.0142 (**1.42%**) and average MAE = 0.0089 (**0.89%**) after hyperparameter tuning
+- **Random Forest**: outperformed with average RMSE ≈ 0.0141 (**1.41%**) and average MAE = 0.0089 (**0.89%**) after hyperparameter tuning
 
 
 ## Visual Highlights
