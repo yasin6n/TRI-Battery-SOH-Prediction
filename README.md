@@ -66,19 +66,25 @@ jupyter notebook
 ## Visual Highlights
 
 ![Capacity Fade Trajectories](images/capacity_fade_smoothened.png) 
-  *Capacity degradation over cycles for sample batteries*
-
-![Elastic_Net Feature Importances](images/ENet_coefficients.png)
-  *Top features from Elastic Net model before/after optimization*
+*Capacity degradation over cycles for sample batteries*
 
 ![Elastic_Net_Prediction Residuals](images/ENet_scatter_residuals.png)
-  *Scatter and Residual plot showing prediction errors for Elastic Net (last GroupKFold split)*
+*Scatter and Residual plot showing prediction errors for Elastic Net (last GroupKFold split)*
 
-![Random_Forest Feature Importances](images/RF_feature_importances.png) 
-  *Top features from Random Forest model before/after optimization*
+![Elastic_Net Feature Importances](images/ENet_coefficients.png)
+*Top features from Elastic Net model before/after optimization*
+
+![Elastic_Net Battery_Histogram](images/ENet_histogram.png)
+*Histogram showing unique battery scores for Elastic Net*
 
 ![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
-  *Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
+*Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
+  
+![Random_Forest Feature Importances](images/RF_feature_importances.png) 
+*Top features from Random Forest model before/after optimization*
+
+![Random_Forest Battery_Histogram](images/RF_histogram.png)
+*Histogram showing unique battery scores for Random Forest*
 
 
 ## Key Skills & Takeaways
@@ -96,10 +102,11 @@ jupyter notebook
 - Defining the savgol filter such that it only uses past data to prevent data leakage
 - Setting the **windowsize** better to achieve reduced noise in data and better analysis
 - Using **sklearn(Scikit-Learn)** to make data ready for analysis, define regression models and calculate the error rates
-- Splitting the data with **Group K-fold** method
+- Doing **Cross-Validation** by splitting the data with **Group K-fold** method for 5 different Train-Test configurations
 - Defining **Elastic Net** and **Random Forest** regressors to analyze the data and make predictions
 - Inspecting the **weights** for each feature by checking **coefficients** in Elastic Net, and **feature importances** in Random Forest
-- Optimizing the models by changing their **hyperparameters**
+- Optimizing the models by changing their **hyperparameters** with the usage of **GridSearchCV**
+- Doing Cross Validation again **(Nested Cross Validation)** by using Group K-Fold again in grid search
 - Seeing the results by calculating **RMSE(Root Mean Squared Error)** and **MAE(Mean Absolute Error)** for model predictions
 - Comparing the model performance before/after optimization by checking the error rates
 - Using **pandas** library to create dataframes, to keep weights for comparison
