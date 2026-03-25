@@ -143,8 +143,8 @@ This project served as a strong foundation for battery SOH prediction using clas
 - **High-Speed Learning Models**  
   Exploring ELM and Broad Learning Systems to achieve Deep Learning accuracy at Linear Model speeds—ideal for real-time, resource-constrained BMS applications.
 
-- **Model Deployment & Real-Time Demo**  
-  Wrap the best model in a simple Streamlit/Gradio web app for interactive SOH prediction (upload cycle data → get prediction + uncertainty). Bonus: export to ONNX for edge deployment simulation.
+- **Model Deployment**  
+  Explore lightweight deployment options (ONNX export + simple inference script) for potential edge/BMS use. A basic interactive demo (Streamlit/Gradio) may be added later.
 
 - **Uncertainty Quantification**  
   Add probabilistic predictions (e.g., via Gaussian Processes, dropout in NNs, or conformal prediction) to estimate prediction confidence — crucial for safety-critical battery applications.
