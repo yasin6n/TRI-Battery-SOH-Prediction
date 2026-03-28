@@ -64,7 +64,7 @@ jupyter notebook
   - **Random Forest**: 25 Minutes
 
 **Important Update (28 March 2026):**  
-SOH calculation has been revised by using the **nominal capacity (1.1 Ah)** provided by the dataset creators instead of the initial capacity. This change approximately **doubled the model's predictive performance** and nearly **halved the error rates**.
+SOH calculation has been revised by using the **nominal capacity (1.1 Ah)** provided by the dataset creators, instead of the initial capacity. This change approximately **doubled the model's predictive performance** and nearly **halved the error rates**.
 
 ### Current Best Results (Nominal Capacity = 1.1 Ah)
 
