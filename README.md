@@ -63,19 +63,23 @@ jupyter notebook
   - **ElasticNet**: 12 Seconds
   - **Random Forest**: 25 Minutes
 
-**Important Update:**(28th March 2026) SOH calculation has been revised by using the nominal capacity (1.1 Ah) provided by the dataset creators instead of initial capacity. This change approximately **doubled the model's predictive performance** and nearly **halved the error rates**.
+**Important Update (28 March 2026):**  
+SOH calculation has been revised by using the **nominal capacity (1.1 Ah)** provided by the dataset creators instead of the initial capacity. This change approximately **doubled the model's predictive performance** and nearly **halved the error rates**.
 
-### Current Best Results (with Nominal Capacity 1.1 Ah)
+### Current Best Results (Nominal Capacity = 1.1 Ah)
 
-- **Elastic Net**: RMSE ≈ 0.0085(0.85%) , MAE ≈ 0.0058(0.58%)
-- **Random Forest**: RMSE ≈ 0.0070(0.70%) , MAE ≈ 0.0041(0.41%)
+| Model            | RMSE          | MAE           |
+|------------------|---------------|---------------|
+| **Elastic Net**  | 0.0085 (0.85%) | 0.0058 (0.58%) |
+| **Random Forest**| 0.0070 (0.70%) | 0.0041 (0.41%) |
 
-### Previous Results (with Initial Capacity - for reference only)
+*(New prediction scatter plots, residual plots, and feature importance graphs are shown below)*
 
-> These older results used a different SOH definition and should not be directly compared.
+### Previous Results (Initial Capacity - Reference Only)
+> These results used a different SOH definition and should **not** be directly compared with the current ones.
 
-- **Elastic Net**: RMSE ≈ 0.0154(1.54%), MAE ≈ 0.0099(0.99%)
-- **Random Forest**: RMSE ≈ 0.0141(1.41%), MAE ≈ 0.0089(0.89%)
+- **Elastic Net**: RMSE ≈ 0.0154 (1.54%), MAE ≈ 0.0099 (0.99%)
+- **Random Forest**: RMSE ≈ 0.0141 (1.41%), MAE ≈ 0.0089 (0.89%)
 
 
 ## Visual Highlights
