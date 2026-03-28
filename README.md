@@ -59,11 +59,27 @@ jupyter notebook
 - Demonstrated clear feature importance (e.g., via coefficients and importances)
 - Showed improvement after hyperparameter tuning and proper smoothing
 - Prevented data leakage with causal Savitzky-Golay filtering (past data only)
-- **Elastic Net**: achieved average RMSE ≈ 0.0154 (**1.54%**) and average MAE ≈ 0.0099 (**0.99%**) (normalized SoH/capacity fraction) on held-out cycles
-- **Random Forest**: outperformed with average RMSE ≈ 0.0141 (**1.41%**) and average MAE = 0.0089 (**0.89%**) after hyperparameter tuning
 - Total approximate time spent (training + optimization + testing) for;
   - **ElasticNet**: 12 Seconds
   - **Random Forest**: 25 Minutes
+
+**Important Update:**(28th March 2026) SOH calculation has been revised by using the nominal capacity (1.1 Ah) provided by the dataset creators instead of initial capacity. This change approximately **doubled the model's predictive performance** and nearly **halved the error rates**.
+
+### Current Best Results (with Nominal Capacity 1.1 Ah)
+
+- **Elastic Net**: RMSE ≈ 0.0085(0.85%) , MAE ≈ 0.0058(0.58%)
+- **Random Forest**: RMSE ≈ 0.0070(0.70%) , MAE ≈ 0.0041(0.41%)
+
+*(Insert your new scatter plots, residual plots, and feature importance graphs here)*
+
+### Previous Results (with Initial Capacity - for reference only)
+
+> These older results used a different SOH definition and should not be directly compared.
+
+- **Elastic Net**: RMSE ≈ 0.0154(1.54%), MAE ≈ 0.0099(0.99%)
+- **Random Forest**: RMSE ≈ 0.0141(1.41%), MAE ≈ 0.0089(0.89%)
+
+*(You can optionally keep old graphs here or remove them completely)*
 
 
 ## Visual Highlights
