@@ -70,16 +70,12 @@ jupyter notebook
 - **Elastic Net**: RMSE ≈ 0.0085(0.85%) , MAE ≈ 0.0058(0.58%)
 - **Random Forest**: RMSE ≈ 0.0070(0.70%) , MAE ≈ 0.0041(0.41%)
 
-*(Insert your new scatter plots, residual plots, and feature importance graphs here)*
-
 ### Previous Results (with Initial Capacity - for reference only)
 
 > These older results used a different SOH definition and should not be directly compared.
 
 - **Elastic Net**: RMSE ≈ 0.0154(1.54%), MAE ≈ 0.0099(0.99%)
 - **Random Forest**: RMSE ≈ 0.0141(1.41%), MAE ≈ 0.0089(0.89%)
-
-*(You can optionally keep old graphs here or remove them completely)*
 
 
 ## Visual Highlights
