@@ -127,7 +127,7 @@ SOH calculation has been revised by using the **nominal capacity (1.1 Ah)** prov
 - Inspecting the **weights** for each feature by checking **coefficients** in Elastic Net, and **feature importances** in Random Forest
 - Optimizing the models by changing their **hyperparameters** with the usage of **GridSearchCV**
 - Doing Cross Validation again **(Nested Cross Validation)** by using Group K-Fold again in grid search
-- Using **Pipeline** to clean and normalize data and train the model seperately within each fold and each nested split
+- Using **Pipeline** to clean and normalize the data and train the model seperately within each fold and each nested split
 - Seeing the results by calculating **RMSE(Root Mean Squared Error)** and **MAE(Mean Absolute Error)** for model predictions
 - Comparing the model performance before/after optimization by checking the error rates
 - Using **pandas** library to create dataframes, to keep weights for comparison
