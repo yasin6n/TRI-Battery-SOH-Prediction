@@ -75,10 +75,14 @@ In the data smoothing stage, the `polyorder` value of the causal (past-dependent
 
 **New results (current best values):**
 
-| Model           | RMSE          | MAE           |
-|-----------------|---------------|---------------|
-| **Elastic Net** | **0.0077**    | **0.0055**    |
+**Update (March 31, 2026):** XGBoost & LightGBM trained in `05_Model_Training_XGBoost_LightGBM.ipynb` → **0.0059 RMSE / 0.0034 MAE** (new best, outperforms all previous models).
+
+| Model             | RMSE        | MAE           |
+|-------------------|-------------|---------------|
+| **Elastic Net**   | **0.0077**  | **0.0055**    |
 | **Random Forest** | **0.0064**  | **0.0038**    |
+| **XGBoost**       | **0.0059**  | **0.0034**    |
+| **LightGBM**      | **0.0059**  | **0.0034**    |
 
 *(Previous values: Elastic Net 0.0085/0.0058, Random Forest 0.0070/0.0041)*
 
