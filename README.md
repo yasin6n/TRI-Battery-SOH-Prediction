@@ -150,8 +150,9 @@ In the data smoothing stage, the `polyorder` value of the causal (past-dependent
 
 This project served as a strong foundation for battery SOH prediction using classical ML on the TRI fast-charging LFP dataset. Here are some ideas I might explore to take it further:
 
-- **Advanced Gradient Boosting Models**  
+- **Advanced Gradient Boosting Models** ✅    
   Experiment with XGBoost, LightGBM, or CatBoost — these often outperform Random Forest on tabular/time-series battery data due to better handling of non-linearities and feature interactions. Goal: push RMSE/MAE below current ~0.6%/0.35% levels.
+  **Update (March 31, 2026):** XGBoost & LightGBM trained in `05_XGBoost_LightGBM.ipynb` → **0.0059 (0.59%) RMSE / 0.0034 (0.34%) MAE** (new best).
 
 - **Early-Cycle RUL Prediction**  
   Shift focus to predicting full remaining useful life (RUL in cycles) using only the first 50–100 cycles of data. This is a common real-world challenge (limited early data in EVs). Could compare against published baselines on the TRI dataset.
