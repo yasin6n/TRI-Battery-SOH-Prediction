@@ -24,6 +24,7 @@ This project was developed with **generative AI assistance** for code structurin
 | 2 | `02_JSON_to_H5_Decoder.ipynb`             | Parse JSON files, extract `cycles_interpolated`, save into unified `.h5` |
 | 3 | `03_Features_Target_Matrices.ipynb`       | Load, clean, smooth (Savitzky-Golay), prepare matrices, save ready `.h5` |
 | 4 | `04_Model_Training_ElasticNet_RF.ipynb`   | Train ElasticNet & Random Forest, predict, evaluate & visualize results |
+| 5 | `05_XGBoost_LightGBM.ipynb`               | Train XGBoost & LightGBM models, hyperparameter tuning, evaluation & comparison |
 
 
 ## Environment
@@ -45,6 +46,8 @@ Dependencies listed in `requirements.txt` (includes numpy, pandas, scipy, scikit
 [![Open 03 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/03_Features_Target_Matrices.ipynb)  
 
 [![Open 04 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/04_Model_Training_ElasticNet_RF.ipynb)
+
+[![Open 05 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasin6n/TRI-Battery-SOH-Prediction/blob/main/05_XGBoost_LightGBM.ipynb)
 
 **Locally:**
 ```bash
