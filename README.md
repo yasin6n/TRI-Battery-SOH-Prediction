@@ -92,19 +92,19 @@ In the data smoothing stage, the `polyorder` value of the causal (past-dependent
 *Capacity degradation over cycles for sample batteries*
 
 ![Elastic_Net_Prediction Residuals](images/ENet_scatter_residuals.png)
-*Scatter and Residual plot showing prediction errors for Elastic Net (last GroupKFold split)*
+*Scatter and Residual plot showing prediction errors for Elastic Net
 
 ![Elastic_Net Feature Importances](images/ENet_coefficients.png)
-*Top features from Elastic Net model before/after optimization (last GroupKFold split)*
+*Top features from Elastic Net model before/after optimization
 
 ![Elastic_Net Battery_Histogram](images/ENet_histogram.png)
 *Histogram showing unique battery scores for Elastic Net*
 
 ![Random_Forest_Prediction Residuals](images/RF_scatter_residuals.png)
-*Scatter and Residual plot showing prediction errors for Random Forest (last GroupKFold split)*
+*Scatter and Residual plot showing prediction errors for Random Forest
   
 ![Random_Forest Feature Importances](images/RF_feature_importances.png) 
-*Top features from Random Forest model before/after optimization (last GroupKFold split)*
+*Top features from Random Forest model before/after optimization
 
 ![Random_Forest Battery_Histogram](images/RF_histogram.png)
 *Histogram showing unique battery scores for Random Forest*
