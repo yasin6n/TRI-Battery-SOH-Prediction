@@ -58,13 +58,16 @@ jupyter notebook
 ```
 
 ## Key Results
-- Achieved competitive RMSE/MAE on cycle-life prediction using ElasticNet and Random Forest
+- Achieved competitive RMSE/MAE on cycle-life prediction using ElasticNet and Random Forest models
 - Demonstrated clear feature importance (e.g., via coefficients and importances)
 - Showed improvement after hyperparameter tuning and proper smoothing
 - Prevented data leakage with causal Savitzky-Golay filtering (past data only)
+- **Update (March 31, 2026):** Achieved even better RMSE/MAE with XGBoost (Extreme Gradient Boosting) and LightGBM (Light Gradient Boosting Machine) models
 - Total approximate time spent (training + optimization + testing) for;
   - **ElasticNet**: 12 Seconds
-  - **Random Forest**: 25 Minutes
+  - **Random Forest**: 7.5 Minutes
+  - **XGBoost**: 3 Minutes
+  - **LightGBM**: 2.5 Minutes
 
 **Important Update (28 March 2026):**  
 SOH calculation has been revised by using the **nominal capacity (1.1 Ah)** provided by the dataset creators, instead of the initial capacity. This change approximately **doubled the model's predictive performance** and nearly **halved the error rates**.
