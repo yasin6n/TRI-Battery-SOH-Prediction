@@ -66,14 +66,18 @@ jupyter notebook
 **Important Update (28 March 2026):**  
 SOH calculation has been revised by using the **nominal capacity (1.1 Ah)** provided by the dataset creators, instead of the initial capacity. This change approximately **doubled the model's predictive performance** and nearly **halved the error rates**.
 
-### Current Best Results (Nominal Capacity = 1.1 Ah)
+**Minor Update (March 31, 2026):**
 
-| Model            | RMSE          | MAE           |
-|------------------|---------------|---------------|
-| **Elastic Net**  | 0.0085 (0.85%) | 0.0058 (0.58%) |
-| **Random Forest**| 0.0070 (0.70%) | 0.0041 (0.41%) |
+In the data smoothing stage, the `polyorder` value of the causal (past-dependent) Savitzky-Golay filter is reduced from **2 to 1**. This simple change reduced over-smoothing and slightly improved the model performance.
 
-*(New prediction scatter plots, residual plots, and feature importance graphs are shown below)*
+**New results (current best values):**
+
+| Model           | RMSE          | MAE           |
+|-----------------|---------------|---------------|
+| **Elastic Net** | **0.0077**    | **0.0055**    |
+| **Random Forest** | **0.0064**  | **0.0038**    |
+
+*(Previous values: Elastic Net 0.0085/0.0058, Random Forest 0.0070/0.0041)*
 
 ### Previous Results (Initial Capacity - Reference Only)
 > These results used a different SOH definition and should **not** be directly compared with the current ones.
@@ -147,7 +151,7 @@ SOH calculation has been revised by using the **nominal capacity (1.1 Ah)** prov
 This project served as a strong foundation for battery SOH prediction using classical ML on the TRI fast-charging LFP dataset. Here are some ideas I might explore to take it further:
 
 - **Advanced Gradient Boosting Models**  
-  Experiment with XGBoost, LightGBM, or CatBoost — these often outperform Random Forest on tabular/time-series battery data due to better handling of non-linearities and feature interactions. Goal: push RMSE/MAE below current ~1.4%/0.9% levels.
+  Experiment with XGBoost, LightGBM, or CatBoost — these often outperform Random Forest on tabular/time-series battery data due to better handling of non-linearities and feature interactions. Goal: push RMSE/MAE below current ~0.6%/0.35% levels.
 
 - **Early-Cycle RUL Prediction**  
   Shift focus to predicting full remaining useful life (RUL in cycles) using only the first 50–100 cycles of data. This is a common real-world challenge (limited early data in EVs). Could compare against published baselines on the TRI dataset.
